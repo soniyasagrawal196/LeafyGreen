@@ -1,0 +1,174 @@
+.MicrogreenParent{
+    margin-top: 50px;
+    width: 100%;
+
+}
+.logoimg1
+{
+display: flex;
+flex-direction: row;
+padding-top: 5px;
+
+}
+.headlogo
+{
+  height:45px;
+  width:45px;
+  color:green;
+  margin-right:8px;
+}
+
+.MicrogreenSubParent{
+    height: 470px;
+
+    display: flex;
+
+}
+
+.microGeenImage {
+width: 35%;
+height: 100%;
+object-fit: cover;
+border-radius: 10px;
+}
+
+.microDetails{
+    padding-left: 20px;
+    width: 65%;
+    height: 100%;
+}
+
+.whatSMicrogress{
+    width: 100%;
+    height: 30%;
+
+}
+
+.QUE{
+    font-size: 40px;
+    font-weight: 700;
+    padding-bottom: 20px;
+    
+}
+
+.ANS{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+
+.types{
+    width: 100%;
+    height: 36%;
+    
+}
+.newleaf{
+    display: flex;
+    flex-direction:row;
+
+    
+}
+.leaf{
+  color: green;
+  font-size: 40px;
+  margin-right: 10px;
+
+}
+   
+.ty1{
+    
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.tyd1{
+
+    font-weight: 400;
+    padding-top: 5px;
+    font-size: 18px;
+    line-height: 24px;
+    /* margin-left: 5px; */
+}
+.benifits{
+    width: 100%;
+    height: 33%;
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: flex-start;
+}
+
+.bf1{
+    font-size: 25px;
+    font-weight: 700;
+    padding-top: 10px;
+}
+
+.bf2{
+    font-weight: 500;
+    display:flex;
+    justify-items: baseline;
+    padding-top: 5px;
+    font-size: 18px;
+    line-height: 20px;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+.bullet1{
+    height: 13px;
+    width:13px;
+    display: flex;
+    margin-right: 10px;
+    margin-top: 5px;
+    color: green;
+}
+.bullet2{
+    height: 13px;
+    width:13px;
+    display: flex;
+    margin-right: 10px;
+    margin-top: 4px;
+    color: green;
+}
+.bullet3{
+ height: 13px;
+    width:13px;
+    display: flex;
+    margin-right: 10px;
+    margin-top: 4px;
+    color: green;
+}
+.bullet4{
+ height: 13px;
+    width:13px;
+    display: flex;
+    margin-right: 10px;
+    margin-top: 4px;
+    color: green;
+}
+ @media screen and (max-width: 1000px) {
+    .MicrogreenParent{
+     margin-top: 50px; 
+    width: 100%;
+    }
+    .MicrogreenSubParent{
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+
+}
+    .microGeenImage {
+width: 100%;
+height: 100%;
+object-fit: cover;
+border-radius: 10px;
+}
+.microDetails{
+    margin-top: 20px;
+    padding-left: 10px;
+    width: 100%;
+    height: 100%;
+}
+ }

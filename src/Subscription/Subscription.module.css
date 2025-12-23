@@ -1,0 +1,229 @@
+
+
+.subscriptionBox{
+    width: 100%;
+    height: 500px;
+
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    padding-bottom: 20px;
+    margin-top: 60px;
+    /* box-shadow: rgba(14, 63, 126, 0.04) 0px 0px 0px 1px, rgba(42, 51, 69, 0.04) 0px 1px 1px -0.5px, rgba(42, 51, 70, 0.04) 0px 3px 3px -1.5px, rgba(42, 51, 70, 0.04) 0px 6px 6px -3px, rgba(14, 63, 126, 0.04) 0px 12px 12px -6px, rgba(14, 63, 126, 0.04) 0px 24px 24px -12px; */
+}
+.logobox{
+   
+     display: flex;
+  flex-direction:row;
+  /* border: 2px solid blue; */
+
+}
+.logo
+{
+    height: 50px;
+    width: 50px;
+    color: green;  
+    display: flex;
+  flex-direction:row;
+  /* border: 2px solid blue; */
+  margin-bottom: 35px;
+  margin-right: 10px;
+
+
+}
+
+.sbTitle{
+    font-size: 40px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+.AllBoxes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.SubBox1{
+    width: 22%;
+    height: 450px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: rgba(14, 63, 126, 0.04) 0px 0px 0px 1px, rgba(42, 51, 69, 0.04) 0px 1px 1px -0.5px, rgba(42, 51, 70, 0.04) 0px 3px 3px -1.5px, rgba(42, 51, 70, 0.04) 0px 6px 6px -3px, rgba(14, 63, 126, 0.04) 0px 12px 12px -6px, rgba(14, 63, 126, 0.04) 0px 24px 24px -12px;
+}
+
+.headGroup{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon{
+width: 50px;
+height: 50px;
+background-color: white;
+/* border:1px solid black; */
+
+border-radius: 60px;
+box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+.right4{
+    height: 60px;
+    width: 60px;
+    color: green;
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px; */
+}
+.right5
+{
+      height: 60px;
+    width: 60px;
+    color: green;
+}
+.right6{
+      height: 60px;
+    width: 60px;
+    color: green;
+}
+.right7{
+      height: 60px;
+    width: 60px;
+    color: green;
+}
+
+.subTitle{
+text-align: center;
+font-size: 30px;
+font-weight: 500;
+margin-top: 10px;
+}
+
+.description{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.price{
+    margin-top: 20px;
+    font-size: 40px;
+    font-weight: 500;
+    color: green;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.featuresBox{
+    font-size: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+.featuresTitle{
+    display: flex;
+     flex-direction: column;
+    justify-self: center;
+    align-self: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.features1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.right1
+{
+ 
+    font-size: 20px;
+  
+margin-right: 3px;
+color: green;  
+}
+.features2{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right2
+{
+   font-size: 20px;
+margin-right: 3px;
+color: green;  
+} 
+.features3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right3{
+  font-size: 20px;
+margin-right: 3px;
+color: green;   
+}
+
+.Button{
+    font-weight: 500;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 35px;
+    background-color: var(--themColor);
+    border-radius: 4px;
+    border: none;
+    
+}
+
+.Button:hover{
+    background-color: white;
+    border: 3px solid var(--themColor);
+    cursor: pointer;
+    color: var(--themColor);
+}
+ @media screen and (max-width: 1000px) {
+    .subscriptionBox{
+    width: 100%;
+    height: 100%;
+
+    /* justify-content: space-between;
+     align-items: center;  */
+    padding-bottom: 20px; 
+    margin-top: 60px;
+    }
+    .AllBoxes{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center; 
+    gap:20px;
+}
+.SubBox1{
+    width: 100%;
+    height: 450px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: rgba(14, 63, 126, 0.04) 0px 0px 0px 1px, rgba(42, 51, 69, 0.04) 0px 1px 1px -0.5px, rgba(42, 51, 70, 0.04) 0px 3px 3px -1.5px, rgba(42, 51, 70, 0.04) 0px 6px 6px -3px, rgba(14, 63, 126, 0.04) 0px 12px 12px -6px, rgba(14, 63, 126, 0.04) 0px 24px 24px -12px;
+}
+ }

@@ -1,0 +1,280 @@
+.footerparentBox {
+  width: 100%;
+  height: 350px;
+  background-color: wheat;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+}
+
+.BOX1 {
+  width: 100%;
+  height: 70%;
+  display: flex;
+  
+}
+
+.logoMaterial {
+  width: 25%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainLogo {
+   width: 80px;
+   height: 80px;
+   border-radius: 6px;
+  object-fit: cover;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.socialIcon {
+  width: 90%;
+  height: 80px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.insta {
+  width: 30px;
+  height: 30px;
+   margin-top: 10px;
+  border-radius: 100px;
+  padding: 5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.fb {
+  width: 30px;
+  height: 30px;
+  margin-top: 10px;
+  border-radius: 100px;
+  padding: 5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.wh {
+  width: 30px;
+  height: 30px;
+   margin-top: 10px;
+  border-radius: 100px;
+  padding: 5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.email {
+  width: 23%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: auto;
+  margin-left: 30px;
+}
+.emailLogo {
+  padding: 10px;
+  margin-left: 8px;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.emailIcon {
+  height: 30px;
+  width: 30px;
+  margin-bottom: 70px;
+}
+
+.emailAddress {
+  font-size: 18px;
+}
+
+.address {
+  width: 45%;
+  height: 100%;
+  display: flex;
+  margin-left: 15px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.addressLogo {
+  width: 50px;
+  height: 50px;
+  margin-right:35px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.locationIcon {
+  height: 30px;
+  width: 30px;
+  margin-bottom: 50px;
+  margin-left: 20px;
+
+}
+.detailsAddress {
+  font-size: 18px;
+  color: black;
+  padding-top: 20px;
+}
+
+.phoneNumber {
+  width: 18%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.phoneLogo {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+.callIcon {
+  width: 30px;
+  height: 30px;
+  margin-top: 30px;
+}
+.phone {
+
+  font-size: 18px;
+  color: black;
+   margin-bottom: 40px;
+}
+
+.line {
+  width: 60%;
+  height: 3px;
+  background-color:darkslategray;
+  display: flex;
+  align-self: center;
+}
+/* 
+.BOX2 {
+  width: 100%;
+  height: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+ .menuItems ul{
+  
+    display: flex; /* Make the list horizontal */
+     justify-content: center;
+  align-items: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    border: none; /* Remove bullet point
+   text 
+    /* border:5px solid red; */
+  }
+   .menuItems li {
+    margin: 0 15px; /* Spacing between each menu item */
+
+  }
+  .menuItems ul li a {
+    text-decoration: none;
+    color: black;
+  }
+
+.home {
+  padding-left: 10px;
+  padding-right: 10px;
+  
+}
+
+.BOX3 {
+   
+  height: 15%;
+  display: flex;
+  left: 0;
+  z-index:999;
+  padding-left: 100px ;
+  max-width: 100%;
+   justify-content: center;
+  align-items: center; 
+  background-color: var(--themColor); 
+}
+
+
+.copyRight {
+  color: white;
+  font-weight: 600;
+}
+
+@media (max-width: 600px) {
+
+  .footerparentBox {
+    height: auto;
+    padding: 20px 0;
+  }
+
+  .BOX1 {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+  }
+
+  .logoMaterial,
+  .email,
+  .address,
+  .phoneNumber {
+    width: 100%;
+    margin: 15px 0;
+    text-align: center;
+  }
+
+  /* Icons spacing fix */
+  .emailIcon,
+  .locationIcon,
+  .callIcon {
+    margin-bottom: 20px;
+  }
+
+  /* Social icons */
+  .socialIcon {
+    width: 70%;
+  }
+
+  /* Footer menu */
+  .menuItems ul {
+    flex-direction: column;
+  }
+
+  .menuItems li {
+    margin: 4px 0;
+  }
+
+  /* Copyright */
+  .BOX3 {
+    padding-left: 0 px;
+    
+  
+  }
+
+  .copyRight {
+    background-color: var(--themColor);
+    font-size: 18px;
+  }
+}
+
+
+ 

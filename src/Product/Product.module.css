@@ -1,0 +1,147 @@
+
+.ProductParentBox {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 60px;
+  }
+  .logo{
+    display: flex;
+    flex-direction:row;
+  }
+  .prologo{
+    width: 50px;
+    height: 50px;
+    color: green;
+    margin-right: 10px;
+  }
+  .prTitle{
+    font-size: 40px;
+    font-weight: 700;
+    padding-bottom: 20px;
+    
+}
+
+  .ProductWrapper {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center; 
+    align-content: center;
+    align-items: center;
+    padding-right: 20px;
+    /* perfect centering */
+  }
+  
+  .ProductGroup {
+    width: 22%;           /* 4 boxes per row */
+    max-width: 300px;     /* prevents left shift */
+    height: 350px;
+    padding: 10px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+  
+  
+  
+  .ProductImage {
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+    border-radius: 10px;
+box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+  }
+  
+  .ProductTitle {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .ProductDescription {
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 20px;
+  }
+  
+/* 
+
+.ProductParentBox{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+
+.ProductGroup{
+width: 22%;
+height: 350px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+
+padding: 10px;
+box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+border-radius: 10px;
+}
+
+.ProductImage{
+ width: 100%;
+height: 50%;
+background-color: aqua;
+border-radius: 10px;
+}
+
+.ProductTitle{
+    margin-top: 10px;
+font-size: 20px;
+}
+
+.ProductDescription{
+    margin-top: 10px;
+font-size: 16px;
+} */
+
+ @media screen and (max-width: 1000px) {
+  .ProductParentBox {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 60px;
+  }
+    .ProductGroup {
+    width: 100%;           /* 4 boxes per row */
+    max-width: 300px;     /* prevents left shift */
+    height: 350px;
+    padding: 10px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+   .ProductImage {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+  }
+  
+ }
