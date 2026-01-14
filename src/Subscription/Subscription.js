@@ -89,9 +89,9 @@ function Subscription() {
 <div className={classes.icon}>
 <IoCheckmarkDoneCircleOutline className={classes.right6}/>
 </div>
-<div className={classes.subTitle}>Half-Yearly Plan</div>
+<div className={classes.subTitle}>Quaterly Plan</div>
 <div className={classes.description}>Loyalty Program (Refer your friend or anyone, and earn 20%)</div>
-<div className={classes.price}>&#8377;5199</div>
+<div className={classes.price}>&#8377;2999</div>
 </div>
 
 
@@ -120,9 +120,9 @@ function Subscription() {
 <div className={classes.icon}>
 <IoCheckmarkDoneCircleOutline className={classes.right7}/>
 </div>
-<div className={classes.subTitle}>Yearly Plan</div>
+<div className={classes.subTitle}>Half-Yearly Plan</div>
 <div className={classes.description}>Loyalty Program (Refer your friend or anyone, and earn 20%)</div>
-<div className={classes.price}>&#8377;7999</div>
+<div className={classes.price}>&#8377;5199</div>
 </div>
 
 
