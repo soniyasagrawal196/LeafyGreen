@@ -47,6 +47,7 @@
 /* ================= LOGO ================= */
 .logo img {
   width: 70px;
+  border-radius: 100%;
 }
   
   /* Menu items on the left */
@@ -197,7 +198,7 @@
 .headlogo {
   width: 60px;
   height: 60px;
-  border-radius: 50%;
+  border-radius: 100%;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px;
 }
 

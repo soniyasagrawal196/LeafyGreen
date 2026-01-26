@@ -55,9 +55,9 @@ function App() {
                 <li>
                   <a href="#Subscriptions" onClick={() => setMenuOpen(false)}>Subscriptions</a>
                 </li>
-                <li>
+                {/* <li>
                   <a href="#portfolio" onClick={() => setMenuOpen(false)}>Contact us</a>
-                </li>
+                </li> */}
                 <li>
                   <a href="#contact" onClick={() => setMenuOpen(false)}>Contact</a>
                 </li>
