@@ -77,9 +77,9 @@ function Footer() {
                 <li>
                   <a href="#Subscriptions">Subscriptions</a>
                 </li>
-                <li>
+                {/* <li>
                   <a href="#portfolio">Contact us</a>
-                </li>
+                </li> */}
                 <li>
                   <a href="#contact">Contact Us</a>
                 </li>
